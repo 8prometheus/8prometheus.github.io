@@ -1,0 +1,20 @@
+.beep {
+    width: 600px;
+    height: 400px;
+}
+     .btn {
+         width: 300px;
+         height: 50px;
+         background-color: darksalmon;
+         border-radius: 30px;
+         font-size: 20px;
+         color: deeppink;
+         display: block;
+         margin: 50px 100px 50px 150px;
+     }  
+     .btn:hover {
+         background-color: deepskyblue;
+     }
+     .btn:hover ~ .beep {
+         display: none;
+     }
